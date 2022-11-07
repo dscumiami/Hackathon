@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+html, body, div, span, applet, object, button,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -2360,6 +2360,44 @@ input, select, textarea {
 			background-color: rgba(255, 255, 255, 0.2);
 		}
 
+/* Accordion */
+	.accordion {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 8px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 300;
+		height: 4em;
+		line-height: 2em;
+		width: 100%;
+		padding: 0 2em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		margin-bottom: 2em;
+	}
+
+	.active, .accordion:hover {
+		background-color: #ccc;
+	}
+
+	.panel {
+		width: 100%;
+		text-align: left;
+		display: inline-block;
+		background-color: white;
+		display: none;
+		overflow: hidden;
+	}
+
 /* Image */
 
 	.image {
@@ -2814,13 +2852,13 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			width: calc(25.0% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
 		}
 
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
+			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4){
 				margin-top: 0;
 			}
 
@@ -2834,7 +2872,7 @@ input, select, textarea {
 				width: calc(50% - 2em);
 			}
 
-				.features li:nth-child(3) {
+				.features li:nth-child(4) {
 					margin-top: 3em;
 				}
 
@@ -2853,7 +2891,7 @@ input, select, textarea {
 					margin-top: 2em;
 				}
 
-					.features li:nth-child(2), .features li:nth-child(3) {
+					.features li:nth-child(2), .features li:nth-child(4) {
 						margin-top: 2em;
 					}
 
