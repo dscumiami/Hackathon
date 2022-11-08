@@ -1,0 +1,8 @@
+# SASS files
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Mac system files
+.DS_Store
