@@ -8,7 +8,7 @@
 
 	var	$window = $(window),
 		$body = $('body'),
-		$main = $('#main');
+		$intro = $('#intro');
 
 	// Breakpoints.
 		breakpoints({
@@ -33,12 +33,13 @@
 		if ($nav.length > 0) {
 
 			// Shrink effect.
-				$main
+				$intro
 					.scrollex({
-						mode: 'top',
+						top: '90%',
 						enter: function() {
 							$nav.addClass('alt');
 						},
+						bottom: '-1000%',
 						leave: function() {
 							$nav.removeClass('alt');
 						},

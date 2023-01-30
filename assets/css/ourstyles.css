@@ -10,3 +10,13 @@
   text-align: center;
   color: white;
 }
+
+#logo img {
+  display: block;
+	margin: 0 auto;
+	max-width: 20%;
+}
+
+#intro {
+	text-align: center;
+}
