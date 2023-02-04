@@ -3035,6 +3035,11 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
+				.spotlight .content header.major h2:after {
+					margin-left: auto;
+					margin-right: auto;
+				}
+
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;

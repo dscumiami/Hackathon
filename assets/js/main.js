@@ -35,7 +35,7 @@
 			// Shrink effect.
 				$intro
 					.scrollex({
-						top: '90%',
+						top: '76%',
 						enter: function() {
 							$nav.addClass('alt');
 						},
@@ -84,7 +84,7 @@
 
 						// Scrollex.
 							$section.scrollex({
-								mode: 'middle',
+								mode: 'top',
 								initialize: function() {
 
 									// Deactivate section.
