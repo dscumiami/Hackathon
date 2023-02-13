@@ -1,14 +1,14 @@
 /* Put new styles here to differentiate from the template file */
 
-#countdown {
-  outline: 12px solid #B3B3B3;
-  outline-offset: 10px;
-  background: #B3B3B3;
-  -webkit-border-radius: 26px;
-  -moz-border-radius: 26px;
-  border-radius: 5px;
+.countdown {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
-  color: white;
+  margin-bottom: 5%;
+}
+
+.day, .hour, .minute, .second {
+  font-size: 3rem;
 }
 
 #logo img {

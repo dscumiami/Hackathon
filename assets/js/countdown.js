@@ -6,7 +6,7 @@ const countdown = () => {
   // Calculate remaining time
   const remainingTime = countDate - now;
 
-  // workout the time in days, hours, minutes
+  // work out the time in days, hours, minutes
   const second = 1000;
   const minute = second * 60;
   const hour = minute * 60;
@@ -18,5 +18,12 @@ const countdown = () => {
   const textSecond = Math.floor((remainingTime % minute) / second);
 
   // update html with the calculated values
-  
+  // check if the time is past 0
+  document.querySelector(".day").textContent = textDay > 0 ? textDay : 0;
+  document.querySelector(".hour").textContent = textHour > 0 ? textHour : 0;
+  document.querySelector(".minute").textContent = textMinute > 0 ? textMinute : 0;
+  document.querySelector(".second").textContent = textSecond > 0 ? textSecond : 0;
 }
+
+// run the countdown every 500 ms to display the time
+setInterval(countdown, 500);

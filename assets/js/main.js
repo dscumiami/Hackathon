@@ -35,7 +35,7 @@
 			// Shrink effect.
 				$intro
 					.scrollex({
-						top: '76%',
+						top: '10%',
 						enter: function() {
 							$nav.addClass('alt');
 						},
