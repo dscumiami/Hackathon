@@ -7,6 +7,91 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.activity {
+	margin: 3% 0 3% 0;
+	width: 40%;
+	height: 3em;
+}
+
+.time {
+	font-size: 100% !important;
+	font-weight: bold;
+	text-align: center;
+	float: inherit;
+	margin: 10% 0 10% 0;
+}
+.card {
+	background-color: white;
+	height: 550px;
+	width: 80%;
+	margin: 0 0 10% 10%;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #f2ac02;
+	border-top: none;
+
+}
+.time-tab {
+	background-color: #59981A;
+	color: white;
+	width: 80%;
+	margin: 0 0 0 10%;
+	font-weight: bolder;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+
+.schedule {
+	background-image: url("../../images/umiami-campus.jpg");
+	background-size: cover;
+  	height: auto;
+	margin-left: 5%;
+	width: 90%;
+	border-radius: 2em;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #f2ac02;
+}
+
+.schedule > .date-tab {
+	color: #f2ac02;
+	font-weight: bold;
+	margin: 5% 0 5% 10%;
+	background-color: white;
+	text-align: left;
+	font-size: 200%;
+}
+hr {
+	height: 10px;
+	background: #f2ac02;
+	margin-left: 5%;
+
+}
+.student-img > img {
+	max-width: 100%;
+	opacity: 90%;
+}
+.tech-img {
+	margin-top: em;
+	max-width: 100%;
+}
+
+.join-text {
+	background-color: white;
+	width: 100%;
+	line-height: 2.5em;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.join-word {
+	font-weight: bold;
+	color: #f2ac02 !important;
+}
+
 html, body, div, span, applet, object, button,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2891,7 +2976,7 @@ input, select, textarea {
 					margin-top: 2em;
 				}
 
-					.features li:nth-child(2), .features li:nth-child(4) {
+					.features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4) {
 						margin-top: 2em;
 					}
 
