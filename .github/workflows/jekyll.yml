@@ -44,7 +44,8 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         
-        run: BUNDLE_GEMFILE=${{ steps.deployment.outputs.page_url }}  bundle install    
+        run: BUNDLE_GEMFILE="${{ steps.pages.outputs.base_path }}" }  bundle install    
+         # bundle install jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" 
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
