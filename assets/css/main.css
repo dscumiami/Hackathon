@@ -12,7 +12,9 @@
 	width: 40%;
 	height: 3em;
 }
-
+ul {
+	list-style: none;
+}
 .time {
 	font-size: 100% !important;
 	font-weight: bold;
