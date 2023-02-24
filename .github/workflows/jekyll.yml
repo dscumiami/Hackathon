@@ -44,7 +44,7 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         
-        run: BUNDLE_GEMFILE="MyProject/Gemfile.ios"  bundle install    
+        run: BUNDLE_GEMFILE="/Gemfile.ios"  bundle install    
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
