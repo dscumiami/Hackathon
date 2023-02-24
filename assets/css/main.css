@@ -12,7 +12,7 @@
 	width: 40%;
 	height: 3em;
 }
-nav {
+#nav {
 	width: 200em;
 	max-width: calc(100% - 0em);
 }
