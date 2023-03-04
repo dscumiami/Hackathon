@@ -2988,6 +2988,16 @@ input, select, textarea {
 
 		}
 
+		.left-connect{
+			color: pink;
+			
+		}
+		.right-connect{
+			color: blue;
+			
+		}
+
+
 /* Statistics */
 
 	.statistics {
