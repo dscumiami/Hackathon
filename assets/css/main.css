@@ -2989,11 +2989,11 @@ input, select, textarea {
 		}
 
 		.left-connect{
-			color: pink;
+			background-color: pink;
 			
 		}
 		.right-connect{
-			color: blue;
+			background-color: blue;
 			
 		}
 
