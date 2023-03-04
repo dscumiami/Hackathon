@@ -2990,10 +2990,13 @@ input, select, textarea {
 
 		.left-connect{
 			background-color: pink;
-			
+			height: 30px;
+			width: 30px;
 		}
 		.right-connect{
 			background-color: blue;
+			height: 30px;
+			width: 30px;
 			
 		}
 
