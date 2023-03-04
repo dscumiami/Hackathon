@@ -3352,8 +3352,8 @@ input, select, textarea {
 		background-color: #2B6146;
 		color: white;
 		position: absolute;
-		/*width: 64em;
-		max-width: calc(100% - 4em);*/
+		width: 100em;
+		/*max-width: calc(100% - 4em);*/
 		padding: 1em;
 		background-color: #2B6146;
 		border-top-left-radius: 0.25em;
