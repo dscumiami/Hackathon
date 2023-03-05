@@ -2997,6 +2997,8 @@ input, select, textarea {
 			background-color: pink;
 		}
 		#right-connect{
+			display: flex;
+			flex-direction: column;
 			background-color: blue;
 			
 		}
