@@ -2987,17 +2987,21 @@ input, select, textarea {
 					}
 
 		}
-
-		.left-connect{
+		.connect-info{
+			background-color: lightcoral;
+			display: grid;
+  			grid-template-columns: repeat(2, 1fr);
+		}
+		#left-connect{
 			background-color: pink;
 			display:  flex;
-			height: 100em;
+			height: 40em;
 			width: 50em;
 		}
-		.right-connect{
+		#right-connect{
 			background-color: blue;
 			display: flex;
-			height: 100em;
+			height: 40em;
 			width: 50em;
 			
 		}
