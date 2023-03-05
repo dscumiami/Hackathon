@@ -2988,7 +2988,7 @@ input, select, textarea {
 
 		}
 		.connect-info{
-			background-color: lightcoral;
+			background-color: beige;
 			height: 30em;
 			display: grid;
   			grid-template-columns: srepeat(2, 1fr);
