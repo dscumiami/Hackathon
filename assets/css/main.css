@@ -2991,16 +2991,11 @@ input, select, textarea {
 			background-color: lightcoral;
 			height: 30em;
 			display: grid;
-  			grid-template-columns: repeat(2, 1fr);
-		}
-		#left-connect{
-			background-color: pink;
+  			grid-template-columns: srepeat(2, 1fr);
 		}
 		#right-connect{
 			display: flex;
 			flex-direction: column;
-			background-color: blue;
-			
 		}
 
 
