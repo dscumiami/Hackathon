@@ -2994,9 +2994,11 @@ input, select, textarea {
   			grid-template-columns: srepeat(2, 1fr);
 		}
 		#left-connect{
+			background-color: white;
 			width: 50em;
 		}
 		#right-connect{
+			background-color: white;
 			width: 50em;
 			display: flex;
 			flex-direction: column;
