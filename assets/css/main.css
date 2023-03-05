@@ -2991,14 +2991,9 @@ input, select, textarea {
 			background-color: beige;
 			height: 30em;
 			display: grid;
-  			grid-template-columns: srepeat(2, 1fr);
-		}
-		#left-connect{
-			background-color: white;
-			width: 50em;
+  			grid-template-columns: repeat(2, 1fr);
 		}
 		#right-connect{
-			background-color: white;
 			width: 50em;
 			display: flex;
 			flex-direction: column;
