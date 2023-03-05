@@ -2991,13 +2991,13 @@ input, select, textarea {
 		.left-connect{
 			background-color: pink;
 			display:  flex;
-			height: 30px;
+			height: 100em;
 			width: 50em;
 		}
 		.right-connect{
 			background-color: blue;
 			display: flex;
-			height: 30px;
+			height: 100em;
 			width: 50em;
 			
 		}
