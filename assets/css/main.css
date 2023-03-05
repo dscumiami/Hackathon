@@ -2989,20 +2989,15 @@ input, select, textarea {
 		}
 		.connect-info{
 			background-color: lightcoral;
-			width: 100em;
-			height: 100em;
+			height: 30em;
 			display: grid;
   			grid-template-columns: repeat(2, 1fr);
 		}
 		#left-connect{
 			background-color: pink;
-			height: 40em;
-			width: 50em;
 		}
 		#right-connect{
 			background-color: blue;
-			height: 40em;
-			width: 50em;
 			
 		}
 
