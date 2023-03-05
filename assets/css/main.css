@@ -2994,7 +2994,6 @@ input, select, textarea {
   			grid-template-columns: repeat(2, 1fr);
 		}
 		#right-connect{
-			width: 50em;
 			display: flex;
 			flex-direction: column;
 		}
