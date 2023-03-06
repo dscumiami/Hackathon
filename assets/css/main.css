@@ -2997,6 +2997,10 @@ input, select, textarea {
 			display: flex;
 			flex-direction: column;
 		}
+		#connect_button{
+			max-width: 50%;
+
+		}
 
 
 /* Statistics */
