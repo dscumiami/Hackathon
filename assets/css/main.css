@@ -2997,7 +2997,7 @@ input, select, textarea {
 			display: flex;
 			flex-direction: column;
 		}
-		#connect_button{
+		#connect_buttons{
 			max-width: 50%;
 
 		}
