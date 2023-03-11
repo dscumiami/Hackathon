@@ -2990,7 +2990,7 @@ input, select, textarea {
 		.connect-info{
 			background-color: beige;
 			height: 30em;
-			display: grid;
+			display: flex;
   			grid-template-columns: repeat(2, 1fr);
 		}
 		#right-connect{
