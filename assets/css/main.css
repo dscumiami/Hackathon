@@ -2991,16 +2991,36 @@ input, select, textarea {
 			background-color: beige;
 			height: 30em;
 			display: flex;
-  			grid-template-columns: repeat(2, 1fr);
+  			
 		}
+		@media screen and (max-width: 736px) {
+			.connect-info{
+				background-color: beige;
+				height: 30em;
+				display: flex;
+				flex-wrap: wrap;
+				  
+			}
+
+		}
+
 		#right-connect{
 			display: flex;
 			flex-direction: column;
 		}
-		#connect_buttons{
-			max-width: 50%;
 
+		input[type=button-connect] {
+			color:#08233e;
+			font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+			font-size:70%;
+			padding:14px;
+			background:url(assets/StyleSheet/Discord.png);
+			background-size: 50%;
 		}
+		input[type=button-connect]:hover {
+			background-color:rgba(255,204,0,0.8);
+		}
+		
 
 
 /* Statistics */
