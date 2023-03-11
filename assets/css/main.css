@@ -3017,6 +3017,7 @@ input, select, textarea {
 			background:url(assets/StyleSheet/Discord.png);
 			background-size: 50%;
 		}
+		
 		input[type=button-connect]:hover {
 			background-color:rgba(255,204,0,0.8);
 		}
