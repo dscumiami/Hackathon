@@ -3014,7 +3014,7 @@ input, select, textarea {
 			font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
 			font-size:70%;
 			padding:14px;
-			background:url(assets/StyleSheet/Discord.png);
+			background-image:url(Discord.png);
 			background-size: 50%;
 		}
 		
