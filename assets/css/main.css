@@ -2988,14 +2988,12 @@ input, select, textarea {
 
 		}
 		.connect-info{
-			background-color: beige;
 			height: 30em;
 			display: flex;
   			
 		}
 		@media screen and (max-width: 736px) {
 			.connect-info{
-				background-color: beige;
 				height: 30em;
 				display: flex;
 				flex-wrap: wrap;
@@ -3003,22 +3001,62 @@ input, select, textarea {
 			}
 
 		}
+		#info-connect{
+			padding: 14px;
+			margin: 14px;
+		}
+		#left-connect{
+			width: 60%;
+		}
 
 		#right-connect{
 			display: flex;
 			flex-direction: column;
 		}
+		.connect-box{
+			padding-top: 5em;
+			padding: 1em;
+			margin: 2px;
+		}
 
 		input[type=button-connect] {
+			all:unset;
 			color:#08233e;
 			font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
-			font-size:70%;
-			padding:14px;
-			background-image:url(Discord.png);
+			font-size:100%;
+			padding:22px;
+			
 		}
-		
+		li {
+			list-style-type: none;
+			list-style: none;
+		}
+		input.signup{
+			background-image:url(SIGNUP.png);
+			background-size: cover;
+		}
+		input.discord{
+			background-image:url(Discord.png);
+			background-size: cover;
+		}
+		input.email{
+			background-image:url(email.png);
+			background-size: cover;
+		}
+		input.googleForms{
+			background-image:url(googlegorms.png);
+			background-size: cover;
+		}
+		input.donate{
+			background-image:url(Donate.png);
+			background-size: cover;
+		}
+		input.donate{
+			background-image:url(Donate.png);
+			background-size: cover;
+		}
 		input[type=button-connect]:hover {
-			background-color:rgba(255,204,0,0.8);
+			background-color:rgba(0, 0, 0, 0.048);
 		}
 		
 
