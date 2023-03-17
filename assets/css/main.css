@@ -2997,7 +2997,9 @@ input, select, textarea {
 				height: 30em;
 				display: flex;
 				flex-wrap: wrap;
-				  
+			}
+			.connect-box{
+				padding: 0;
 			}
 
 		}
