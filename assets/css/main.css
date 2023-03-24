@@ -2988,7 +2988,6 @@ input, select, textarea {
 
 		}
 		.connect-info{
-			height: 30em;
 			display: flex;
   			
 		}
@@ -3831,8 +3830,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
-			border-top: solid 1px #dddddd;
+			padding: 3em 5em 3em 5em ;
 		}
 
 			#main > .main:first-child {
