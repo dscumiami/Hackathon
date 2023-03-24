@@ -2998,7 +2998,6 @@ input, select, textarea {
 		}
 		@media screen and (max-width: 736px) {
 			.connect-info{
-				height: 30em;
 				display: flex;
 				flex-wrap: wrap;
 			}
