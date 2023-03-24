@@ -3085,20 +3085,20 @@ input, select, textarea {
 		}
 		
 
-		input.webDev{
+		button.webDev{
 			/*TODO: UPDATE GAELLE*/
 			background-image:url(Discord.png);
 			background-size: cover;
 		}
-		input.arDev{
+		button.arDev{
 			background-image:url(email.png);
 			background-size: cover;
 		}
-		input.dataMl{
+		button.dataMl{
 			background-image:url(googlegorms.png);
 			background-size: cover;
 		}
-		input.appDev{
+		button.appDev{
 			background-image:url(Donate.png);
 			background-size: cover;
 		}
