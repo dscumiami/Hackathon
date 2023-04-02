@@ -14,7 +14,7 @@
 }
 #nav {
 	width: 100em;
-	max-width: calc(100% - 0em);
+	min-width: calc(100% - 0em);
 }
 ul {
 	list-style: none;
