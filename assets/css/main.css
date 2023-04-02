@@ -3029,7 +3029,7 @@ input, select, textarea {
 			margin: 2px;
 		}
 
-		input[type="button.discord"] {
+		input[type="button"] {
 			/*erasing button inherits*/
 			background-color: none;
 			box-shadow: none;
