@@ -3067,16 +3067,13 @@ input, select, textarea {
 
 
 /* THEME */
-		#info{
+
+		#info-theme{
 			margin: 3em;
 			padding: 4em;
 		}
-
-		#info-theme{
-			padding: 14px;
-			margin: 14px;
-		}
 		#left-theme{
+			
 			width: 70%;
 		}
 
