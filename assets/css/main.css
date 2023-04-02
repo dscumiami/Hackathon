@@ -24,7 +24,7 @@ ul {
 	font-weight: bold;
 	text-align: center;
 	float: inherit;
-	margin: 13% 0 22% 0;
+	margin: 2em 0 2.5em 0;
 }
 .card {
 	background-color: white;
@@ -3068,8 +3068,8 @@ input, select, textarea {
 
 /* THEME */
 		#info{
-			margin: 14px;
-			padding: 14px;
+			margin: 3em;
+			padding: 4em;
 		}
 
 		#info-theme{
