@@ -3029,11 +3029,6 @@ input, select, textarea {
 			margin: 2px;
 		}
 
-		input[type="button"].discord {
-			
-			
-			
-		}
 		/*updated css*/
 		li {
 			list-style-type: none;
@@ -3044,36 +3039,31 @@ input, select, textarea {
 			background-size: cover;
 		}
 
-		input.discord{
+		input.connect{
 			/*erasing button inherits*/
 			background-color: none;
-			box-shadow: none;
+			box-shadow: unset;
 			color:#08233e;
 
 			height: 3em;
 			min-width: 12em;
 			font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
 			font-size:100%;
-			padding:22px;
-			
+			background-size: cover;
+		}
+		#discord{
 			background-image:url(Discord.png);
-			background-size: cover;
 		}
-		input.email{
+		#email{
 			background-image:url(email.png);
-			background-size: cover;
 		}
-		input.googleForms{
+		#googleForms{
 			background-image:url(googlegorms.png);
-			background-size: cover;
 		}
-		input.donate{
+		#donate{
 			background-image:url(Donate.png);
-			background-size: cover;
 		}
-		input[type=button-connect]:hover {
-			background-color:rgba(0, 0, 0, 0.048);
-		}
+
 
 
 /* THEME */
