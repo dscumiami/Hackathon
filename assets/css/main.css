@@ -3029,12 +3029,18 @@ input, select, textarea {
 			margin: 2px;
 		}
 
-		input[type=button-connect] {
-			all:unset;
+		input.connect {
+			/*erasing button inherits*/
+			background-color: none;
+			box-shadow: none;
 			color:#08233e;
+
+			height: 3em;
+			min-width: 12em;
 			font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
 			font-size:100%;
 			padding:22px;
+			
 			
 		}
 		/*updated css*/
@@ -3047,12 +3053,6 @@ input, select, textarea {
 			background-size: cover;
 		}
 		input.discord{
-			all:unset;
-			color:#08233e;
-			font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
-			font-size:100%;
-			padding:22px;
-			
 			background-image:url(Discord.png);
 			background-size: cover;
 		}
