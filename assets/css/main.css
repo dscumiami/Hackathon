@@ -3029,17 +3029,8 @@ input, select, textarea {
 			margin: 2px;
 		}
 
-		input[type="button"] {
-			/*erasing button inherits*/
-			background-color: none;
-			box-shadow: none;
-			color:#08233e;
-
-			height: 3em;
-			min-width: 12em;
-			font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
-			font-size:100%;
-			padding:22px;
+		input[type="button"].discord {
+			
 			
 			
 		}
@@ -3054,6 +3045,17 @@ input, select, textarea {
 		}
 
 		input.discord{
+			/*erasing button inherits*/
+			background-color: none;
+			box-shadow: none;
+			color:#08233e;
+
+			height: 3em;
+			min-width: 12em;
+			font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+			font-size:100%;
+			padding:22px;
+			
 			background-image:url(Discord.png);
 			background-size: cover;
 		}
