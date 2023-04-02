@@ -3029,7 +3029,7 @@ input, select, textarea {
 			margin: 2px;
 		}
 
-		input.connect {
+		input[type="button.discord"] {
 			/*erasing button inherits*/
 			background-color: none;
 			box-shadow: none;
@@ -3052,6 +3052,7 @@ input, select, textarea {
 			background-image:url(SIGNUP.png);
 			background-size: cover;
 		}
+
 		input.discord{
 			background-image:url(Discord.png);
 			background-size: cover;
