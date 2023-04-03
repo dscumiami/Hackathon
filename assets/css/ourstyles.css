@@ -20,3 +20,25 @@
 #intro {
 	text-align: center;
 }
+
+#info-theme {
+  padding-top: 0;
+}
+
+#sponsors-images {
+  display:flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center
+}
+
+@media screen and (max-width: 480px) {
+  #info-theme {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #sponsors-images {
+    flex-direction: column;
+  }
+}
