@@ -14,7 +14,7 @@
 }
 #nav {
 	width: 100em;
-	min-width: calc(100% - 0em);
+	max-width: calc(100% - 0em);
 }
 ul {
 	list-style: none;
@@ -3034,11 +3034,7 @@ input, select, textarea {
 			list-style-type: none;
 			list-style: none;
 		}
-		input.signup{
-			background-image:url(SIGNUP.png);
-			background-size: cover;
-		}
-
+		
 		input.connect{
 			/*erasing button inherits*/
 			background-color: none;
@@ -3049,6 +3045,10 @@ input, select, textarea {
 			min-width: 12em;
 			font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
 			font-size:100%;
+			background-size: cover;
+		}
+		#signup{
+			background-image:url(SIGNUP.png);
 			background-size: cover;
 		}
 		#discord{
@@ -3073,12 +3073,10 @@ input, select, textarea {
 			padding: 4em;
 		}
 		#left-theme{
-			
-			width: 70%;
+			width: 70em;
 		}
-
 		#right-theme{
-			width: 30%;
+			width: 30em;
 			display: flex;
 			flex-direction: column;
 		}
@@ -3086,19 +3084,19 @@ input, select, textarea {
 
 		button.webDev{
 			/*TODO: UPDATE GAELLE*/
-			background-image:url(Discord.png);
+
 			background-size: cover;
 		}
 		button.arDev{
-			background-image:url(email.png);
+
 			background-size: cover;
 		}
 		button.dataMl{
-			background-image:url(googlegorms.png);
+
 			background-size: cover;
 		}
 		button.appDev{
-			background-image:url(Donate.png);
+
 			background-size: cover;
 		}
 
