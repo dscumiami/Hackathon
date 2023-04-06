@@ -3015,7 +3015,7 @@ input, select, textarea {
 				
 			}
 			#left-theme{
-				
+				width: inherit;
 			}
 			#left-connect{
 				width: 80em;
