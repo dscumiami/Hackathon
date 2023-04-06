@@ -13,7 +13,6 @@
 	height: 3em;
 }
 #nav {
-	width: 100em;
 	max-width: calc(100% - 0em);
 }
 ul {
