@@ -3003,7 +3003,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 			}
 			.theme-info{
-				height: 30em;
+				height: 60em;
 				display: flex;
 				flex-direction: column;
 				  
@@ -3026,6 +3026,10 @@ input, select, textarea {
 
 
 
+		}
+		a{
+			border-bottom: unset;
+			border-bottom: none;
 		}
 		#info-connect{
 			padding: 14px;
