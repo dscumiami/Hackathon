@@ -3013,9 +3013,11 @@ input, select, textarea {
 			#right-connect{
 				
 			}
+			/*
 			#left-theme{
 				width: 35em;
 			}
+			*/
 			#left-connect{
 				width: 80em;
 			}
@@ -3034,9 +3036,11 @@ input, select, textarea {
 			padding: 14px;
 			margin: 14px;
 		}
+		/*
 		#left-connect{
 			width: 50em;
 		}
+		*/
 
 		#right-connect{
 			display: flex;
