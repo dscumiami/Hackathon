@@ -484,7 +484,8 @@ input, select, textarea {
 		}
 
 		.row > .col-3 {
-			width: 25%;
+			width: 35%;
+
 		}
 
 		.row > .off-3 {
@@ -532,7 +533,7 @@ input, select, textarea {
 		}
 
 		.row > .col-9 {
-			width: 75%;
+			width: 55%;
 		}
 
 		.row > .off-9 {
@@ -3004,11 +3005,20 @@ input, select, textarea {
 			.theme-info{
 				height: 30em;
 				display: flex;
+				flex-direction: column;
 				  
 			}
 			.connect-box{
 				padding: 0;
 			}
+			#right-connect{
+				width: 50em;
+			}
+			#left-theme{
+				width: 30em;
+			}
+
+
 
 		}
 		#info-connect{
@@ -3016,7 +3026,7 @@ input, select, textarea {
 			margin: 14px;
 		}
 		#left-connect{
-			width: 60%;
+			width: 50em;
 		}
 
 		#right-connect{
