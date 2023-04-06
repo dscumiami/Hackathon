@@ -429,6 +429,11 @@ input, select, textarea {
 		box-sizing: border-box;
 		align-items: stretch;
 	}
+	@media screen and (max-width: 980px) {
+		.row > .col-6 {
+			width: 100%;
+		}
+	}
 
 		.row > * {
 			box-sizing: border-box;
@@ -507,11 +512,7 @@ input, select, textarea {
 			margin-left: 41.66667%;
 		}
 
-		@media screen and (max-width: 736px) {
-			.row > .col-6 {
-				width: 100%;
-			}
-		}
+		
 
 		.row > .col-6 {
 			width: 50%;
@@ -3003,6 +3004,7 @@ input, select, textarea {
 		.theme-info{
 			height: 30em;
 			display: flex;
+			justify-content: center;
   			
 		}
 		@media screen and (max-width: 736px) {
@@ -3022,11 +3024,11 @@ input, select, textarea {
 			#right-connect{
 				
 			}
-			/*
+			
 			#left-theme{
-				width: 35em;
+				width: 30em;
 			}
-			*/
+			
 			#left-connect{
 				width: 80em;
 			}
