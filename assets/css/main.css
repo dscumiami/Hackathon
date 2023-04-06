@@ -507,10 +507,14 @@ input, select, textarea {
 			margin-left: 41.66667%;
 		}
 
+		@media screen and (max-width: 736px) {
+			.row > .col-6 {
+				width: 100%;
+			}
+		}
+
 		.row > .col-6 {
-			/*
 			width: 50%;
-			*/
 		}
 
 		.row > .off-6 {
@@ -2992,6 +2996,7 @@ input, select, textarea {
 
 		}
 		.connect-info{
+			justify-content: center;
 			display: flex;
   			
 		}
