@@ -3017,6 +3017,12 @@ input, select, textarea {
 			#left-theme{
 				width: 30em;
 			}
+			#left-connect{
+				width: 80em;
+			}
+			#right-connect{
+				width: 80em;
+			}
 
 
 
