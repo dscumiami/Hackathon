@@ -3002,6 +3002,17 @@ input, select, textarea {
 					}
 
 		}
+		#schedule-image{
+			width: 100%;
+			background-image: url(assets/css/schedule.png);
+		}
+		@media screen and (min-width: 736px) {
+			#info{
+				width: 40em;
+				padding-right: 1em;
+				padding-bottom: 1em;
+			}
+		}
 		#info{
 			padding-bottom: 1em;
 		}
@@ -3017,6 +3028,10 @@ input, select, textarea {
   			
 		}
 		@media screen and (max-width: 736px) {
+			#schedule-image{
+				width: 100%;
+				background-image: url(assets/css/schedule_mobile.png);
+			}
 			.connect-info{
 				display: flex;
 				flex-wrap: wrap;
@@ -3030,15 +3045,6 @@ input, select, textarea {
 			.connect-box{
 				padding: 0;
 			}
-			#right-connect{
-				
-			}
-			
-			/*
-			#left-theme{
-				width: 30em;
-			}
-			*/
 			#left-connect{
 				width: 80em;
 			}
