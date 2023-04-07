@@ -3004,7 +3004,7 @@ input, select, textarea {
 		}
 		#schedule-image{
 			width: 100%;
-			background-image: url(assets/css/schedule.png);
+			background-image: url(schedule.png);
 		}
 		@media screen and (min-width: 736px) {
 			#info{
@@ -3031,7 +3031,7 @@ input, select, textarea {
 			#schedule-image{
 				width: 100%;
 				background-color: #2B6146;
-				background-image: url(assets/css/schedule_mobile.png);
+				background-image: url(schedule_mobile.png);
 			}
 			.connect-info{
 				display: flex;
