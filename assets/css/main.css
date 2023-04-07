@@ -3031,10 +3031,11 @@ input, select, textarea {
 				
 			}
 			
+			/*
 			#left-theme{
 				width: 30em;
 			}
-			
+			*/
 			#left-connect{
 				width: 80em;
 			}
@@ -3046,9 +3047,11 @@ input, select, textarea {
 
 		}
 		@media screen and (min-width: 740px) {
+			/*
 			#left-theme{
 				width: 70%;
 			}
+			*/
 		}
 		a{
 			border-bottom: unset;
