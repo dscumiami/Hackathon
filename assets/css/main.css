@@ -3006,7 +3006,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-image: url(schedule.png);
-			background-size: 100%;
+			background-size: contain;
 		}
 		@media screen and (min-width: 736px) {
 			#info{
@@ -3034,7 +3034,7 @@ input, select, textarea {
 				width: 100%;
 				height: 100%;
 				background-image: url(schedule_mobile.png);
-				background-size: 100%;
+				background-size: contain;
 			}
 			.connect-info{
 				display: flex;
