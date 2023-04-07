@@ -3030,6 +3030,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 			#schedule-image{
 				width: 100%;
+				background-color: #2B6146;
 				background-image: url(assets/css/schedule_mobile.png);
 			}
 			.connect-info{
