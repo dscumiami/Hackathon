@@ -3002,6 +3002,9 @@ input, select, textarea {
 					}
 
 		}
+		#info{
+			padding-bottom: 1em;
+		}
 		.connect-info{
 			justify-content: center;
 			display: flex;
