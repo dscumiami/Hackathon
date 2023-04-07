@@ -513,9 +513,10 @@ input, select, textarea {
 		}
 
 		
-
-		.row > .col-6 {
-			width: 50%;
+		@media screen and (min-width: 740px) {
+			.row > .col-6 {
+				width: 50%;
+			}
 		}
 
 		.row > .off-6 {
@@ -3039,6 +3040,11 @@ input, select, textarea {
 
 
 		}
+		@media screen and (min-width: 740px) {
+			#left-theme{
+				width: 70em;
+			}
+		}
 		a{
 			border-bottom: unset;
 			border-bottom: none;
@@ -3106,9 +3112,7 @@ input, select, textarea {
 			margin: 3em;
 			padding: 4em;
 		}
-		#left-theme{
-			width: 70em;
-		}
+		
 		#right-theme{
 			width: 30em;
 			display: flex;
